@@ -1,0 +1,39 @@
+@media (width <=375px) {
+	.content-container {
+		inline-size: 100dvi;
+	}
+
+	.header {
+		padding-block: 120px 23px;
+	}
+
+	.card__image__wrap {
+		block-size: 375px;
+	}
+
+	.card__content {
+		position: relative;
+		padding: 25px 25px;
+	}
+
+	.buttons__wrap {
+		padding-block: 0px 25px;
+	}
+
+	.card:not(:first-child) {
+		margin-block-start: 50px;
+	}
+
+	.card__image__description {
+		inset-inline-end: 13px;
+		inset-block-start: 25px;
+	}
+
+	.card__memory-button {
+		flex-direction: column;
+	}
+
+	.floppy {
+		inline-size: 29px;
+	}
+}
